@@ -19,16 +19,15 @@ This project simulates a robot that follows a moving sphere in **CoppeliaSim**, 
 
 ## ⚙️ Installation
 1. Clone the repository:
-
 git clone https://github.com/hom0mat/Coppelia_PID_vision.git 
 
-Make sure zmqRemoteApi client is available:
+2. Make sure zmqRemoteApi client is available:
 It's usually found in the CoppeliaSim directory under programming/zmqRemoteApi/clients/python/
 
-Run the ROS2 launch file:
+3. Run the ROS2 launch file:
 ros2 run act1_2 launch.py
 
-Make sure CoppeliaSim is open and simulation is running in stepping mode.
+4. Make sure CoppeliaSim is open and simulation is running in stepping mode.
 
 🌀 Switching to Circular Motion
 To switch from sinusoidal to circular movement, update the move_ball() function in ball.py as follows:
@@ -36,9 +35,7 @@ To switch from sinusoidal to circular movement, update the move_ball() function 
 x = center_x + radius * math.cos(2 * math.pi * frequency * t)
 y = center_y + radius * math.sin(2 * math.pi * frequency * t)
 
-👩‍💻 Author
-
-César Mateo Sánchez Álvarez
+👩‍💻 Author: César Mateo Sánchez Álvarez
 
 Robotics & Embedded Systems Student 💻🤖
 
