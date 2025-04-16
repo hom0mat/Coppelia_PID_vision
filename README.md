@@ -37,7 +37,9 @@ x = center_x + radius * math.cos(2 * math.pi * frequency * t)
 y = center_y + radius * math.sin(2 * math.pi * frequency * t)
 
 👩‍💻 Author
+
 César Mateo Sánchez Álvarez
 
 Robotics & Embedded Systems Student 💻🤖
+
 A01541805 | Tecnológico de Monterrey
