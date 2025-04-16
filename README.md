@@ -20,7 +20,7 @@ This project simulates a robot that follows a moving sphere in **CoppeliaSim**, 
 ## ⚙️ Installation
 1. Clone the repository:
 
-git clone FALTAAAAAAAAAA
+git clone https://github.com/hom0mat/Coppelia_PID_vision.git 
 
 Make sure zmqRemoteApi client is available:
 It's usually found in the CoppeliaSim directory under programming/zmqRemoteApi/clients/python/
