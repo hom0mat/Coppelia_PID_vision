@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'act1_2'
+package_name = 'act1_3'
 
 setup(
     name=package_name,
@@ -16,17 +16,17 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ximena',
-    maintainer_email='A01198557@tec.mx',
+    maintainer='mateo',
+    maintainer_email='neronf123@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'movement = act1_2.movement:main',
-            'vision = act1_2.vision:main',
-            'ball = act1_2.ball:main',
-            'pid_follower = act1_2.pid_follower:main'
+            'movement = act1_3.movement:main',
+            'vision = act1_3.vision:main',
+            'ball = act1_3.ball:main',
+            'pid_follower = act1_3.pid_follower:main'
         ],
     },
 )
